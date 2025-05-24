@@ -15,7 +15,7 @@ app.post("/wagmi", (req: Request, res: Response) => {
         return res.json({
             message: "wagmi",
             timestamp: new Date().toISOString(),
-            lang: "typescript"
+            lang: "Node.js"
         })
     }
     }catch(e)
